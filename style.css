@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    background-color: aliceblue;
+    text-align: left;
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+    
+    
+    
+    
+
+}
+
+.img {
+    height: auto;
+    width: auto;
+    max-width: 300px;
+    max-height: 300px;
+
+}
+
+.asterism {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: palevioletred;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: skyblue;
+}
+
+h4 {
+    text-align: center;
+    color: palevioletred;
+}
+
+h5 {
+    margin-top: 50px;
+    text-align: center;
+    color: steelblue;
+    background-color: white;
+}
+
+tr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    
+}
+
+a {
+    text-align: center;
+}
+
+td:hover {
+        background-color: peachpuff;
+    
+    }
+
+
+p + p {
+    margin: 15px;
+
+}
+
+p {
+    line-height: 25px;
+    text-indent: 2em;
+    margin: auto;
+}
+
+pre {
+    text-align: center;
+}
+
+.poem {
+    text-align: center;
+}
+
+p:nth-of-type(3n) {
+    color: palevioletred;
+}
+
+div .poem {
+    background-color: seashell;
+}
+
+td ~ td {
+    background-color: peachpuff;
+}
+
+td > a {
+    color: palevioletred;
+}
+
+p :first-child {
+    text-shadow: peachpuff;
+}
+
+p :last-child {
+    color:skyblue;
+    font-size: 18px;
+    margin: auto;
+}
+
+h2 :only-child {
+    color:skyblue;
+}
+
+p :nth-of-type(3n) {
+    text-decoration: underline;
+}
